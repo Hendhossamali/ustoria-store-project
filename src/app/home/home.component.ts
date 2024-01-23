@@ -201,8 +201,8 @@ export class HomeComponent {
     dots: false,
     autoplayHoverPause: false,
     autoplayTimeout: 1000,
-    navSpeed: 500,
-    navText: ['', ''],
+    navSpeed: 700,
+    navText: ['prev', 'next'],
     responsive: {
       0: {
         items: 1,
@@ -229,7 +229,7 @@ export class HomeComponent {
     autoplayHoverPause: false,
     autoplayTimeout: 1000,
     navSpeed: 500,
-    navText: ['', ''],
+    navText: ['prev', 'next'],
     responsive: {
       0: {
         items: 1,

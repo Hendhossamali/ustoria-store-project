@@ -184,16 +184,10 @@
                         <h2 class="section-title">Latest Products</h2>
                         <div class="product-carousel owl-carousel owl-theme owl-responsive-1000 owl-loaded">
                             <div class="owl-stage-outer">
-                                <div class="owl-stage" >
+                                <div class="owl-stage">
                                     <owl-carousel-o [options]="customOptions">
                                         <ng-template carouselSlide>
-                                            <ng-container *ngFor="let slide of dynamicSlides">
-                                                <ng-template carouselSlide>
-                                                    <!-- [id]="slide.id" -->
-                                                    <img [src]="slide.src" [alt]="slide.alt" [title]="slide.title">
-                                                </ng-template>
-                                            </ng-container>
-                                            <!-- <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
+                                            <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                                 <div class="single-product">
                                                     <div class="product-f-image">
                                                         <img src="../../assets/img/product-2.jpg" alt="">
@@ -210,7 +204,7 @@
                                                         <ins>$899.00</ins> <del>$999.00</del>
                                                     </div>
                                                 </div>
-                                            </div> -->
+                                            </div>
                                         </ng-template>
                                         <ng-template carouselSlide>
                                             <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
@@ -380,7 +374,7 @@
                                                 </div>
                                             </div>
                                         </ng-template>
-                                        
+
                                     </owl-carousel-o>
                                     <!-- <div class="owl-item cloned" style="width: 212px; margin-right: 20px;">
                                         <div class="single-product">
